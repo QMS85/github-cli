@@ -2,10 +2,10 @@
 
 ## Work seamlessly with GitHub from the command line.   
 
-### USAGE
+### USAGE:
   `gh <command> <subcommand>` [flags]  
 
-### CORE COMMANDS
+### CORE COMMANDS:
   `auth:`          Authenticate gh and git with GitHub  
   `browse:`        Open repositories, issues, pull requests, and more in the browser  
   `codespace:`     Connect to and manage codespaces  
@@ -18,15 +18,15 @@
   `repo:`          Manage repositories  
   `skill:`         Install and manage agent skills (preview)  
 
-### GITHUB ACTIONS COMMANDS  
+### GITHUB ACTIONS COMMANDS:  
   `cache:`         Manage GitHub Actions caches  
   `run:`           View details about workflow runs  
   `workflow:`      View details about GitHub Actions workflows  
 
-### ALIAS COMMANDS  
+### ALIAS COMMANDS:  
   `co:`            Alias for "pr checkout"  
 
-### ADDITIONAL COMMANDS   
+### ADDITIONAL COMMANDS:   
   `agent-task:`    Work with agent tasks (preview)  
   `alias:`         Create command shortcuts  
   `api:`           Make an authenticated GitHub API request  
@@ -46,7 +46,7 @@
   `status:`        Print information about relevant issues, pull requests, and notifications across repositories  
   `variable:`      Manage GitHub Actions variables  
 
-### HELP TOPICS   
+### HELP TOPICS:   
   `accessibility:` Learn about GitHub CLI's accessibility experiences  
   `actions:`       Learn about working with GitHub Actions  
   `environment:`   Environment variables that can be used with gh  
@@ -56,18 +56,18 @@
   `reference:`     A comprehensive reference of all gh commands  
   `telemetry:`     Information about telemetry in gh  
 
-### FLAGS   
+### FLAGS:   
   `--help`      Show help for command  
   `--version`   Show gh version  
 
-### EXAMPLES  
+### EXAMPLES:  
   `$ gh issue create`  
   `$ gh repo clone cli/cli`  
   `$ gh pr checkout 321`  
 
-### LEARN MORE  
+### LEARN MORE:  
   Use `gh <command> <subcommand> --help` for more information about a command.  
   Read the manual at https://cli.github.com/manual  
-  Learn about exit codes using `gh help exit-codes`
+  Learn about exit codes using `gh help exit-codes`  
   Learn about accessibility experiences using `gh help accessibility`  
 
